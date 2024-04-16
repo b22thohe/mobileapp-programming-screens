@@ -23,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("==>", "myButton was pressed!");
 
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                intent.putExtra("name", "Kirk");
+                intent.putExtra("age", 60);
+                intent.putExtra("career", "Starfleet");
+                intent.putExtra("rank", "Admiral");
+                intent.putExtra("status", "Deceased");
                 startActivity(intent);
             }
         });

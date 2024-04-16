@@ -20,5 +20,14 @@ public class SecondActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        Bundle intentData = getIntent().getExtras();
+        if (intentData != null) {
+            String name = intentData.getString("name");
+            int age = intentData.getInt("age");
+            String career = intentData.getString("career");
+            String rank = intentData.getString("rank");
+            String status = intentData.getString("status");
+        }
     }
 }
