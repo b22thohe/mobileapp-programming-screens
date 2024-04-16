@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Screens</string>
     <string name="button_text">To Second Activity</string>
+    <string name="textview_text">Starfleet Personal Data File</string>
 </resources>

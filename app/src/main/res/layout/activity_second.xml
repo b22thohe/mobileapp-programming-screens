@@ -21,7 +21,7 @@
         android:id="@+id/myTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Starfleet Personal Data File"
+        android:text="@string/textview_text"
         app:layout_constraintBottom_toTopOf="@+id/myRecyclerView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
